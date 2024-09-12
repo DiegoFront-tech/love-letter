@@ -19,7 +19,7 @@
 		</button>
 		<div class="btns-container" :class="{ 'btns-container-open': open }">
 			<button class="btn open-image" @click="openModal()">Abrir</button>
-			<a href="./assets/Cartita.pdf" download class="btn download">Descargar</a>
+			<a href="../public/Cartita.pdf" download="Carta" class="btn download" type="pdf">Descargar</a>
 		</div>
 	</div>
 
